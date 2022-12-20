@@ -45,6 +45,10 @@ def CA_strategy(dict, ccy_pair):
     # #date1 andd date2 will be the dates we need to find
     # date1 = Date of last forecast
     # date2 = CA Date of last ToT
+
+    date1 =''
+    date2 =''
+
     #Bring all the variables needed
     tot = bdh('CTOTPHP Index', 'INTERVAL_NET_CHANGE', None, date1, date2)
     ccy_pct = bdh('PHP Curncy', 'INTERVAL_NET_CHANGE', None, date1, date2)
