@@ -45,7 +45,6 @@ def CA_strategy(dict, ccy_pair):
     # #date1 andd date2 will be the dates we need to find
     # date1 = Date of last forecast
     # date2 = CA Date of last ToT
-
     date1 =''
     date2 =''
 
